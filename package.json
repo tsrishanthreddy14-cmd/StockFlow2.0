@@ -1,0 +1,24 @@
+{
+  "name": "stockflow-2.0",
+  "version": "2.0.0",
+  "description": "StockFlow 2.0 – Intelligent Inventory Ecosystem | BeeEngage",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "build": "npm run build:client",
+    "ml:forecast": "python ml_service/forecast_model.py --demo"
+  },
+  "keywords": [
+    "inventory-management",
+    "warehouse-management",
+    "ai-forecasting",
+    "scikit-learn",
+    "supabase",
+    "react",
+    "express"
+  ],
+  "author": "BeeEngage",
+  "license": "MIT"
+}

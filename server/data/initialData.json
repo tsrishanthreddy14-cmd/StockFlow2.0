@@ -1,0 +1,512 @@
+{
+  "categories": [
+    {
+      "id": "c1000000-0000-0000-0000-000000000001",
+      "name": "Robotics & Automation",
+      "description": "Servos, controllers, sensors and automated actuators",
+      "icon": "Cpu",
+      "created_at": "2026-11-01T08:00:00Z"
+    },
+    {
+      "id": "c1000000-0000-0000-0000-000000000002",
+      "name": "Power & Energy Storage",
+      "description": "Industrial Li-ion battery packs, inverters, power supplies",
+      "icon": "BatteryCharging",
+      "created_at": "2026-11-01T08:00:00Z"
+    },
+    {
+      "id": "c1000000-0000-0000-0000-000000000003",
+      "name": "Mechanical & Bearings",
+      "description": "High-load bearings, gears, shaft couplings, linear guides",
+      "icon": "Cog",
+      "created_at": "2026-11-01T08:00:00Z"
+    },
+    {
+      "id": "c1000000-0000-0000-0000-000000000004",
+      "name": "Hydraulics & Fluid Power",
+      "description": "Pneumatic cylinders, hydraulic valves, pressure regulators",
+      "icon": "Gauge",
+      "created_at": "2026-11-01T08:00:00Z"
+    },
+    {
+      "id": "c1000000-0000-0000-0000-000000000005",
+      "name": "Industrial Networking",
+      "description": "Optical transceivers, managed Ethernet switches, fiber cables",
+      "icon": "Network",
+      "created_at": "2026-11-01T08:00:00Z"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "s1000000-0000-0000-0000-000000000001",
+      "name": "Apex Dynamics Robotics",
+      "contact_name": "Marcus Vance",
+      "email": "orders@apexdynamics.io",
+      "phone": "+1 (512) 555-0192",
+      "address": "104 Innovation Way, Austin, TX 78701",
+      "lead_time_days": 7,
+      "rating": 4.9,
+      "reliability_score": 96,
+      "status": "active"
+    },
+    {
+      "id": "s1000000-0000-0000-0000-000000000002",
+      "name": "Volta Power Systems",
+      "contact_name": "Elena Rostova",
+      "email": "supply@voltapower.com",
+      "phone": "+1 (415) 555-0283",
+      "address": "880 CleanTech Parkway, Fremont, CA 94538",
+      "lead_time_days": 12,
+      "rating": 4.75,
+      "reliability_score": 91,
+      "status": "active"
+    },
+    {
+      "id": "s1000000-0000-0000-0000-000000000003",
+      "name": "Precision Bearing Werke",
+      "contact_name": "Klaus Weber",
+      "email": "klaus@precisionwerke.de",
+      "phone": "+49 711 555 4920",
+      "address": "Industriestrasse 42, Stuttgart, Germany",
+      "lead_time_days": 10,
+      "rating": 4.85,
+      "reliability_score": 94,
+      "status": "active"
+    },
+    {
+      "id": "s1000000-0000-0000-0000-000000000004",
+      "name": "Titan Hydraulic Global",
+      "contact_name": "Kenji Sato",
+      "email": "sales@titan-hydraulics.jp",
+      "phone": "+81 6 6555 8301",
+      "address": "3-12 Nakanoshima, Kita-ku, Osaka, Japan",
+      "lead_time_days": 14,
+      "rating": 4.6,
+      "reliability_score": 88,
+      "status": "active"
+    },
+    {
+      "id": "s1000000-0000-0000-0000-000000000005",
+      "name": "OptiLink Telecommunications",
+      "contact_name": "Chloe Zhang",
+      "email": "sales@optilink-global.tw",
+      "phone": "+886 2 2555 7710",
+      "address": "Science Park Rd, Hsinchu, Taiwan",
+      "lead_time_days": 5,
+      "rating": 4.95,
+      "reliability_score": 98,
+      "status": "active"
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "w1000000-0000-0000-0000-000000000001",
+      "name": "Midwest Regional Hub",
+      "code": "WH-MIDWEST-01",
+      "location": "742 Logistics Blvd, Chicago, IL 60607",
+      "total_capacity_sqft": 48000,
+      "total_bins": 850,
+      "occupied_bins": 620,
+      "utilization_rate": 72.9,
+      "temperature_zone": "Ambient (21°C)",
+      "manager_name": "Sarah Jenkins",
+      "contact_phone": "+1 (312) 555-8841"
+    },
+    {
+      "id": "w1000000-0000-0000-0000-000000000002",
+      "name": "Rotterdam Gateway Logistics",
+      "code": "WH-EU-02",
+      "location": "Havennummer 4022, Rotterdam, Netherlands",
+      "total_capacity_sqft": 62000,
+      "total_bins": 1100,
+      "occupied_bins": 740,
+      "utilization_rate": 67.3,
+      "temperature_zone": "Climate Controlled (18°C)",
+      "manager_name": "Dirk Van Dijk",
+      "contact_phone": "+31 10 555 9302"
+    },
+    {
+      "id": "w1000000-0000-0000-0000-000000000003",
+      "name": "Pacific Hub Fulfillment",
+      "code": "WH-PACIFIC-03",
+      "location": "15 Jurong Port Rd, Singapore 619111",
+      "total_capacity_sqft": 36000,
+      "total_bins": 600,
+      "occupied_bins": 510,
+      "utilization_rate": 85.0,
+      "temperature_zone": "Humidity Regulated (22°C / 50% RH)",
+      "manager_name": "Mei-Ling Tan",
+      "contact_phone": "+65 6555 4910"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1000000-0000-0000-0000-000000000001",
+      "name": "Precision Servo Motor 24V 400W",
+      "sku": "SF-ROB-SRV-24V",
+      "barcode": "890123400101",
+      "category_id": "c1000000-0000-0000-0000-000000000001",
+      "category_name": "Robotics & Automation",
+      "supplier_id": "s1000000-0000-0000-0000-000000000001",
+      "supplier_name": "Apex Dynamics Robotics",
+      "warehouse_id": "w1000000-0000-0000-0000-000000000001",
+      "warehouse_name": "Midwest Regional Hub",
+      "stock_quantity": 94,
+      "min_stock_level": 30,
+      "cost_price": 145.0,
+      "selling_price": 240.0,
+      "rack_location": "Aisle 1 - Rack A04",
+      "lead_time_days": 7,
+      "status": "in_stock"
+    },
+    {
+      "id": "p1000000-0000-0000-0000-000000000002",
+      "name": "UltraShield Ceramic Roller Bearing 6205",
+      "sku": "SF-MEC-BRG-6205",
+      "barcode": "890123400102",
+      "category_id": "c1000000-0000-0000-0000-000000000003",
+      "category_name": "Mechanical & Bearings",
+      "supplier_id": "s1000000-0000-0000-0000-000000000003",
+      "supplier_name": "Precision Bearing Werke",
+      "warehouse_id": "w1000000-0000-0000-0000-000000000001",
+      "warehouse_name": "Midwest Regional Hub",
+      "stock_quantity": 18,
+      "min_stock_level": 25,
+      "cost_price": 42.5,
+      "selling_price": 79.99,
+      "rack_location": "Aisle 2 - Rack B12",
+      "lead_time_days": 10,
+      "status": "low_stock"
+    },
+    {
+      "id": "p1000000-0000-0000-0000-000000000003",
+      "name": "Lithium Iron Phosphate Battery 48V 50Ah",
+      "sku": "SF-PWR-LFP-48V",
+      "barcode": "890123400103",
+      "category_id": "c1000000-0000-0000-0000-000000000002",
+      "category_name": "Power & Energy Storage",
+      "supplier_id": "s1000000-0000-0000-0000-000000000002",
+      "supplier_name": "Volta Power Systems",
+      "warehouse_id": "w1000000-0000-0000-0000-000000000001",
+      "warehouse_name": "Midwest Regional Hub",
+      "stock_quantity": 8,
+      "min_stock_level": 15,
+      "cost_price": 420.0,
+      "selling_price": 680.0,
+      "rack_location": "Aisle 4 - Rack D01",
+      "lead_time_days": 12,
+      "status": "low_stock"
+    },
+    {
+      "id": "p1000000-0000-0000-0000-000000000004",
+      "name": "High-Speed Optical Transceiver 100G QSFP28",
+      "sku": "SF-NET-OPT-100G",
+      "barcode": "890123400104",
+      "category_id": "c1000000-0000-0000-0000-000000000005",
+      "category_name": "Industrial Networking",
+      "supplier_id": "s1000000-0000-0000-0000-000000000005",
+      "supplier_name": "OptiLink Telecommunications",
+      "warehouse_id": "w1000000-0000-0000-0000-000000000003",
+      "warehouse_name": "Pacific Hub Fulfillment",
+      "stock_quantity": 6,
+      "min_stock_level": 20,
+      "cost_price": 85.0,
+      "selling_price": 155.0,
+      "rack_location": "Aisle 1 - Rack A01",
+      "lead_time_days": 5,
+      "status": "low_stock"
+    },
+    {
+      "id": "p1000000-0000-0000-0000-000000000005",
+      "name": "Pneumatic Double-Acting Cylinder 50mm",
+      "sku": "SF-HYD-CYL-50",
+      "barcode": "890123400105",
+      "category_id": "c1000000-0000-0000-0000-000000000004",
+      "category_name": "Hydraulics & Fluid Power",
+      "supplier_id": "s1000000-0000-0000-0000-000000000004",
+      "supplier_name": "Titan Hydraulic Global",
+      "warehouse_id": "w1000000-0000-0000-0000-000000000002",
+      "warehouse_name": "Rotterdam Gateway Logistics",
+      "stock_quantity": 310,
+      "min_stock_level": 40,
+      "cost_price": 68.0,
+      "selling_price": 115.0,
+      "rack_location": "Aisle 3 - Rack C08",
+      "lead_time_days": 14,
+      "status": "in_stock"
+    },
+    {
+      "id": "p1000000-0000-0000-0000-000000000006",
+      "name": "Industrial Multi-Axis Motion Controller",
+      "sku": "SF-ROB-CTL-MAX",
+      "barcode": "890123400106",
+      "category_id": "c1000000-0000-0000-0000-000000000001",
+      "category_name": "Robotics & Automation",
+      "supplier_id": "s1000000-0000-0000-0000-000000000001",
+      "supplier_name": "Apex Dynamics Robotics",
+      "warehouse_id": "w1000000-0000-0000-0000-000000000001",
+      "warehouse_name": "Midwest Regional Hub",
+      "stock_quantity": 42,
+      "min_stock_level": 15,
+      "cost_price": 310.0,
+      "selling_price": 520.0,
+      "rack_location": "Aisle 1 - Rack A08",
+      "lead_time_days": 7,
+      "status": "in_stock"
+    },
+    {
+      "id": "p1000000-0000-0000-0000-000000000007",
+      "name": "Pure Sine Wave Inverter 3000W 24V",
+      "sku": "SF-PWR-INV-3KW",
+      "barcode": "890123400107",
+      "category_id": "c1000000-0000-0000-0000-000000000002",
+      "category_name": "Power & Energy Storage",
+      "supplier_id": "s1000000-0000-0000-0000-000000000002",
+      "supplier_name": "Volta Power Systems",
+      "warehouse_id": "w1000000-0000-0000-0000-000000000002",
+      "warehouse_name": "Rotterdam Gateway Logistics",
+      "stock_quantity": 65,
+      "min_stock_level": 20,
+      "cost_price": 260.0,
+      "selling_price": 440.0,
+      "rack_location": "Aisle 4 - Rack D05",
+      "lead_time_days": 12,
+      "status": "in_stock"
+    },
+    {
+      "id": "p1000000-0000-0000-0000-000000000008",
+      "name": "Precision Ground Ball Screw Assembly 25mm",
+      "sku": "SF-MEC-BLS-25",
+      "barcode": "890123400108",
+      "category_id": "c1000000-0000-0000-0000-000000000003",
+      "category_name": "Mechanical & Bearings",
+      "supplier_id": "s1000000-0000-0000-0000-000000000003",
+      "supplier_name": "Precision Bearing Werke",
+      "warehouse_id": "w1000000-0000-0000-0000-000000000001",
+      "warehouse_name": "Midwest Regional Hub",
+      "stock_quantity": 0,
+      "min_stock_level": 10,
+      "cost_price": 185.0,
+      "selling_price": 310.0,
+      "rack_location": "Aisle 2 - Rack B02",
+      "lead_time_days": 10,
+      "status": "out_of_stock"
+    },
+    {
+      "id": "p1000000-0000-0000-0000-000000000009",
+      "name": "Digital Hydraulic Pressure Valve 350 Bar",
+      "sku": "SF-HYD-VLV-DIG",
+      "barcode": "890123400109",
+      "category_id": "c1000000-0000-0000-0000-000000000004",
+      "category_name": "Hydraulics & Fluid Power",
+      "supplier_id": "s1000000-0000-0000-0000-000000000004",
+      "supplier_name": "Titan Hydraulic Global",
+      "warehouse_id": "w1000000-0000-0000-0000-000000000002",
+      "warehouse_name": "Rotterdam Gateway Logistics",
+      "stock_quantity": 55,
+      "min_stock_level": 20,
+      "cost_price": 195.0,
+      "selling_price": 330.0,
+      "rack_location": "Aisle 3 - Rack C02",
+      "lead_time_days": 14,
+      "status": "in_stock"
+    },
+    {
+      "id": "p1000000-0000-0000-0000-000000000010",
+      "name": "Layer 3 Industrial Managed Switch 24-Port",
+      "sku": "SF-NET-SWT-24P",
+      "barcode": "890123400110",
+      "category_id": "c1000000-0000-0000-0000-000000000005",
+      "category_name": "Industrial Networking",
+      "supplier_id": "s1000000-0000-0000-0000-000000000005",
+      "supplier_name": "OptiLink Telecommunications",
+      "warehouse_id": "w1000000-0000-0000-0000-000000000003",
+      "warehouse_name": "Pacific Hub Fulfillment",
+      "stock_quantity": 28,
+      "min_stock_level": 12,
+      "cost_price": 380.0,
+      "selling_price": 620.0,
+      "rack_location": "Aisle 1 - Rack A11",
+      "lead_time_days": 5,
+      "status": "in_stock"
+    }
+  ],
+  "orders": [
+    {
+      "id": "o1000000-0000-0000-0000-000000000001",
+      "order_number": "ORD-2026-8801",
+      "type": "sales",
+      "customer_or_supplier_name": "Tesla Gigafactory Texas",
+      "status": "delivered",
+      "total_amount": 14400.0,
+      "notes": "Urgent delivery for assembly cell 4",
+      "order_date": "2026-11-02T10:30:00Z",
+      "items": [
+        {
+          "product_id": "p1000000-0000-0000-0000-000000000001",
+          "product_name": "Precision Servo Motor 24V 400W",
+          "quantity": 60,
+          "unit_price": 240.0,
+          "subtotal": 14400.0
+        }
+      ]
+    },
+    {
+      "id": "o1000000-0000-0000-0000-000000000002",
+      "order_number": "ORD-2026-8802",
+      "type": "sales",
+      "customer_or_supplier_name": "Siemens Energy AG",
+      "status": "shipped",
+      "total_amount": 6800.0,
+      "notes": "Priority air freight dispatch",
+      "order_date": "2026-11-04T14:15:00Z",
+      "items": [
+        {
+          "product_id": "p1000000-0000-0000-0000-000000000003",
+          "product_name": "Lithium Iron Phosphate Battery 48V 50Ah",
+          "quantity": 10,
+          "unit_price": 680.0,
+          "subtotal": 6800.0
+        }
+      ]
+    },
+    {
+      "id": "o1000000-0000-0000-0000-000000000003",
+      "order_number": "ORD-2026-8803",
+      "type": "sales",
+      "customer_or_supplier_name": "ABB Robotics Operations",
+      "status": "processing",
+      "total_amount": 5200.0,
+      "notes": "Scheduled for dispatch tomorrow",
+      "order_date": "2026-11-05T09:00:00Z",
+      "items": [
+        {
+          "product_id": "p1000000-0000-0000-0000-000000000006",
+          "product_name": "Industrial Multi-Axis Motion Controller",
+          "quantity": 10,
+          "unit_price": 520.0,
+          "subtotal": 5200.0
+        }
+      ]
+    },
+    {
+      "id": "o1000000-0000-0000-0000-000000000004",
+      "order_number": "ORD-2026-8804",
+      "type": "sales",
+      "customer_or_supplier_name": "KUKA Automation Systems",
+      "status": "pending",
+      "total_amount": 3100.0,
+      "notes": "Awaiting customer PO confirmation",
+      "order_date": "2026-11-06T11:45:00Z",
+      "items": [
+        {
+          "product_id": "p1000000-0000-0000-0000-000000000008",
+          "product_name": "Precision Ground Ball Screw Assembly 25mm",
+          "quantity": 10,
+          "unit_price": 310.0,
+          "subtotal": 3100.0
+        }
+      ]
+    },
+    {
+      "id": "o1000000-0000-0000-0000-000000000005",
+      "order_number": "PO-2026-1044",
+      "type": "purchase",
+      "customer_or_supplier_name": "Apex Dynamics Robotics",
+      "status": "delivered",
+      "total_amount": 14500.0,
+      "notes": "Restocking 100 units servo motors",
+      "order_date": "2026-10-27T08:00:00Z",
+      "items": [
+        {
+          "product_id": "p1000000-0000-0000-0000-000000000001",
+          "product_name": "Precision Servo Motor 24V 400W",
+          "quantity": 100,
+          "unit_price": 145.0,
+          "subtotal": 14500.0
+        }
+      ]
+    },
+    {
+      "id": "o1000000-0000-0000-0000-000000000006",
+      "order_number": "PO-2026-1045",
+      "type": "purchase",
+      "customer_or_supplier_name": "Precision Bearing Werke",
+      "status": "processing",
+      "total_amount": 8500.0,
+      "notes": "Replenishment for low stock bearings",
+      "order_date": "2026-11-03T13:20:00Z",
+      "items": [
+        {
+          "product_id": "p1000000-0000-0000-0000-000000000002",
+          "product_name": "UltraShield Ceramic Roller Bearing 6205",
+          "quantity": 200,
+          "unit_price": 42.5,
+          "subtotal": 8500.0
+        }
+      ]
+    }
+  ],
+  "stock_movements": [
+    {
+      "id": "m1000000-0000-0000-0000-000000000001",
+      "product_id": "p1000000-0000-0000-0000-000000000001",
+      "product_name": "Precision Servo Motor 24V 400W",
+      "type": "IN",
+      "quantity": 100,
+      "from_location": "Supplier Dock",
+      "to_location": "Aisle 1 - Rack A04",
+      "reason": "PO Inbound Receiving",
+      "reference_id": "PO-2026-1044",
+      "created_at": "2026-10-27T14:30:00Z"
+    },
+    {
+      "id": "m1000000-0000-0000-0000-000000000002",
+      "product_id": "p1000000-0000-0000-0000-000000000001",
+      "product_name": "Precision Servo Motor 24V 400W",
+      "type": "OUT",
+      "quantity": 60,
+      "from_location": "Aisle 1 - Rack A04",
+      "to_location": "Outbound Shipping Dock",
+      "reason": "Sales Order Fulfillment",
+      "reference_id": "ORD-2026-8801",
+      "created_at": "2026-11-02T16:00:00Z"
+    },
+    {
+      "id": "m1000000-0000-0000-0000-000000000003",
+      "product_id": "p1000000-0000-0000-0000-000000000003",
+      "product_name": "Lithium Iron Phosphate Battery 48V 50Ah",
+      "type": "OUT",
+      "quantity": 10,
+      "from_location": "Aisle 4 - Rack D01",
+      "to_location": "Outbound Shipping Dock",
+      "reason": "Sales Order Fulfillment",
+      "reference_id": "ORD-2026-8802",
+      "created_at": "2026-11-04T17:15:00Z"
+    },
+    {
+      "id": "m1000000-0000-0000-0000-000000000004",
+      "product_id": "p1000000-0000-0000-0000-000000000002",
+      "product_name": "UltraShield Ceramic Roller Bearing 6205",
+      "type": "ADJUSTMENT",
+      "quantity": -5,
+      "from_location": "Aisle 2 - Rack B12",
+      "to_location": "Damaged Quarantine",
+      "reason": "Routine QA Inspection Damage",
+      "reference_id": "ADJ-8812",
+      "created_at": "2026-11-05T11:00:00Z"
+    },
+    {
+      "id": "m1000000-0000-0000-0000-000000000005",
+      "product_id": "p1000000-0000-0000-0000-000000000005",
+      "product_name": "Pneumatic Double-Acting Cylinder 50mm",
+      "type": "TRANSFER",
+      "quantity": 50,
+      "from_location": "WH-MIDWEST-01",
+      "to_location": "WH-EU-02",
+      "reason": "Inter-facility balancing transfer",
+      "reference_id": "TRF-0912",
+      "created_at": "2026-11-06T06:00:00Z"
+    }
+  ]
+}

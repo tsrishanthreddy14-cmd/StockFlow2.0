@@ -1,0 +1,12 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+ml_service/venv/
+ml_service/temp_payload.json
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.log
+*.tmp
